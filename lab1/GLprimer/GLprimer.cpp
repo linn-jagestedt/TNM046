@@ -49,13 +49,14 @@ int main(int, char*[])
     glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
     glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE);
 
-    GLFWwindow* window = glfwCreateWindow(
-        vidmode->height / 2, 
-        vidmode->height / 2, 
-        "GLprimer", 
-        nullptr, 
-        nullptr
-    );
+    GLFWwindow* window = 
+        glfwCreateWindow(
+            vidmode->height / 2, 
+            vidmode->height / 2, 
+            "lab1", 
+            nullptr, 
+            nullptr
+        );
     
     if (!window) {
         std::cout << "Unable to open window. Terminating.\n";
@@ -103,8 +104,8 @@ int main(int, char*[])
 
     glBindVertexArray(0);
 
-    //Shader myShader = Shader("vertex.glsl", "fragment.glsl");
-    Shader myShader = Shader("/home/linn/Documents/VSCode/TNM046/lab1/GLprimer/vertex.glsl", "/home/linn/Documents/VSCode/TNM046/lab1/GLprimer/fragment.glsl");
+    Shader myShader = Shader("vertex.glsl", "fragment.glsl");
+    //Shader myShader = Shader("/home/linn/Documents/VSCode/TNM046/lab1/GLprimer/vertex.glsl", "/home/linn/Documents/VSCode/TNM046/lab1/GLprimer/fragment.glsl");
 
     while (!glfwWindowShouldClose(window)) 
     {

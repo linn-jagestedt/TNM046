@@ -47,7 +47,13 @@ int main(int, char*[]) {
     glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE);
 
     GLFWwindow* window =
-        glfwCreateWindow(vidmode->height / 2, vidmode->height / 2, "GLprimer", nullptr, nullptr);
+        glfwCreateWindow(
+            vidmode->height / 2, 
+            vidmode->height / 2, 
+            "lab2", 
+            nullptr, 
+            nullptr
+        );
 
     if (!window) {
         std::cout << "Unable to open window. Terminating.\n";
