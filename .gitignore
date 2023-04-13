@@ -10,6 +10,26 @@ compile_commands.json
 CTestTestfile.cmake
 _deps
 
+lab2/build/*
+lab2/build
+lab1/build/*
+lab1/build
+
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
+
+*/build
+
 # Prerequisites
 *.d
 

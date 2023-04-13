@@ -1,4 +1,0 @@
-﻿  GLprimer.cpp
-\\ad.liu.se\home\elsta728\Desktop\lab2\GLprimer\GLprimer.cpp(149,46): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-\\ad.liu.se\home\elsta728\Desktop\lab2\GLprimer\GLprimer.cpp(152,83): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
-  tnm046-labs.vcxproj -> \\ad.liu.se\home\elsta728\Desktop\lab2\build\Debug\tnm046-labs.exe
