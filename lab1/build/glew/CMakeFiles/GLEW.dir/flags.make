@@ -4,7 +4,7 @@
 # compile C with /usr/bin/gcc-12
 C_DEFINES = -DGLEW_STATIC -DHAVE_CONFIG_H
 
-C_INCLUDES = -I/home/linn/Documents/VSCode/TNM046/glew/include
+C_INCLUDES = -I/home/linn/Documents/VSCode/TNM046/lab1/GLprimer/glew/include
 
 C_FLAGS = -g
 

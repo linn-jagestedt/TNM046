@@ -4,7 +4,7 @@
 # compile C with /usr/bin/gcc-12
 C_DEFINES = -D_GLFW_USE_CONFIG_H
 
-C_INCLUDES = -I/home/linn/Documents/VSCode/TNM046/glfw-3.3.2/include -I/home/linn/Documents/VSCode/TNM046/glfw-3.3.2/src -I/home/linn/Documents/VSCode/TNM046/build/glfw-3.3.2/src
+C_INCLUDES = -I/home/linn/Documents/VSCode/TNM046/lab1/GLprimer/glfw-3.3.2/include -I/home/linn/Documents/VSCode/TNM046/lab1/GLprimer/glfw-3.3.2/src -I/home/linn/Documents/VSCode/TNM046/lab1/build/glfw-3.3.2/src
 
 C_FLAGS = -g -fPIC -Wall -std=gnu99
 

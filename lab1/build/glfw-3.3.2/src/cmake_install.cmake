@@ -1,4 +1,4 @@
-# Install script for directory: /home/linn/Documents/VSCode/TNM046/glfw-3.3.2/src
+# Install script for directory: /home/linn/Documents/VSCode/TNM046/lab1/GLprimer/glfw-3.3.2/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -43,6 +43,6 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/linn/Documents/VSCode/TNM046/build/glfw-3.3.2/src/libglfw3.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/linn/Documents/VSCode/TNM046/lab1/build/glfw-3.3.2/src/libglfw3.a")
 endif()
 

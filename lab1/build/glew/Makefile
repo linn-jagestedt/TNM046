@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/linn/Documents/VSCode/TNM046
+CMAKE_SOURCE_DIR = /home/linn/Documents/VSCode/TNM046/lab1/GLprimer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/linn/Documents/VSCode/TNM046/build
+CMAKE_BINARY_DIR = /home/linn/Documents/VSCode/TNM046/lab1/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/linn/Documents/VSCode/TNM046/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/linn/Documents/VSCode/TNM046/build/CMakeFiles /home/linn/Documents/VSCode/TNM046/build/glew//CMakeFiles/progress.marks
-	cd /home/linn/Documents/VSCode/TNM046/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glew/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/linn/Documents/VSCode/TNM046/build/CMakeFiles 0
+	cd /home/linn/Documents/VSCode/TNM046/lab1/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/linn/Documents/VSCode/TNM046/lab1/build/CMakeFiles /home/linn/Documents/VSCode/TNM046/lab1/build/glew//CMakeFiles/progress.marks
+	cd /home/linn/Documents/VSCode/TNM046/lab1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glew/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/linn/Documents/VSCode/TNM046/lab1/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/linn/Documents/VSCode/TNM046/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glew/clean
+	cd /home/linn/Documents/VSCode/TNM046/lab1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glew/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/linn/Documents/VSCode/TNM046/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glew/preinstall
+	cd /home/linn/Documents/VSCode/TNM046/lab1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glew/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/linn/Documents/VSCode/TNM046/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glew/preinstall
+	cd /home/linn/Documents/VSCode/TNM046/lab1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glew/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/linn/Documents/VSCode/TNM046/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/linn/Documents/VSCode/TNM046/lab1/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 glew/CMakeFiles/GLEW.dir/rule:
-	cd /home/linn/Documents/VSCode/TNM046/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glew/CMakeFiles/GLEW.dir/rule
+	cd /home/linn/Documents/VSCode/TNM046/lab1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 glew/CMakeFiles/GLEW.dir/rule
 .PHONY : glew/CMakeFiles/GLEW.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ GLEW: glew/CMakeFiles/GLEW.dir/rule
 
 # fast build rule for target.
 GLEW/fast:
-	cd /home/linn/Documents/VSCode/TNM046/build && $(MAKE) $(MAKESILENT) -f glew/CMakeFiles/GLEW.dir/build.make glew/CMakeFiles/GLEW.dir/build
+	cd /home/linn/Documents/VSCode/TNM046/lab1/build && $(MAKE) $(MAKESILENT) -f glew/CMakeFiles/GLEW.dir/build.make glew/CMakeFiles/GLEW.dir/build
 .PHONY : GLEW/fast
 
 src/glew.o: src/glew.c.o
@@ -180,7 +180,7 @@ src/glew.o: src/glew.c.o
 
 # target to build an object file
 src/glew.c.o:
-	cd /home/linn/Documents/VSCode/TNM046/build && $(MAKE) $(MAKESILENT) -f glew/CMakeFiles/GLEW.dir/build.make glew/CMakeFiles/GLEW.dir/src/glew.c.o
+	cd /home/linn/Documents/VSCode/TNM046/lab1/build && $(MAKE) $(MAKESILENT) -f glew/CMakeFiles/GLEW.dir/build.make glew/CMakeFiles/GLEW.dir/src/glew.c.o
 .PHONY : src/glew.c.o
 
 src/glew.i: src/glew.c.i
@@ -188,7 +188,7 @@ src/glew.i: src/glew.c.i
 
 # target to preprocess a source file
 src/glew.c.i:
-	cd /home/linn/Documents/VSCode/TNM046/build && $(MAKE) $(MAKESILENT) -f glew/CMakeFiles/GLEW.dir/build.make glew/CMakeFiles/GLEW.dir/src/glew.c.i
+	cd /home/linn/Documents/VSCode/TNM046/lab1/build && $(MAKE) $(MAKESILENT) -f glew/CMakeFiles/GLEW.dir/build.make glew/CMakeFiles/GLEW.dir/src/glew.c.i
 .PHONY : src/glew.c.i
 
 src/glew.s: src/glew.c.s
@@ -196,7 +196,7 @@ src/glew.s: src/glew.c.s
 
 # target to generate assembly for a file
 src/glew.c.s:
-	cd /home/linn/Documents/VSCode/TNM046/build && $(MAKE) $(MAKESILENT) -f glew/CMakeFiles/GLEW.dir/build.make glew/CMakeFiles/GLEW.dir/src/glew.c.s
+	cd /home/linn/Documents/VSCode/TNM046/lab1/build && $(MAKE) $(MAKESILENT) -f glew/CMakeFiles/GLEW.dir/build.make glew/CMakeFiles/GLEW.dir/src/glew.c.s
 .PHONY : src/glew.c.s
 
 # Help Target
@@ -226,6 +226,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/linn/Documents/VSCode/TNM046/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/linn/Documents/VSCode/TNM046/lab1/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

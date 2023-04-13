@@ -1,6 +1,6 @@
 CMakeFiles/tnm046-labs.dir/TriangleSoup.cpp.o: \
- /home/linn/Documents/VSCode/TNM046/TriangleSoup.cpp \
- /usr/include/stdc-predef.h /usr/include/c++/11/cstring \
+ /home/linn/Documents/VSCode/TNM046/lab1/GLprimer/TriangleSoup.cpp \
+ /usr/include/stdc-predef.h /usr/include/c++/11/cmath \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -11,14 +11,10 @@ CMakeFiles/tnm046-labs.dir/TriangleSoup.cpp.o: \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h \
- /usr/include/c++/11/pstl/pstl_config.h /usr/include/string.h \
- /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
- /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
- /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
- /usr/include/strings.h /usr/include/c++/11/cmath \
+ /usr/include/c++/11/pstl/pstl_config.h \
  /usr/include/c++/11/bits/cpp_type_traits.h \
  /usr/include/c++/11/ext/type_traits.h /usr/include/math.h \
+ /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/x86_64-linux-gnu/bits/types.h \
  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
  /usr/include/x86_64-linux-gnu/bits/time64.h \
@@ -34,8 +30,11 @@ CMakeFiles/tnm046-labs.dir/TriangleSoup.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
  /usr/include/c++/11/bits/std_abs.h /usr/include/stdlib.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+ /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
  /usr/include/x86_64-linux-gnu/sys/types.h \
  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
@@ -85,7 +84,7 @@ CMakeFiles/tnm046-labs.dir/TriangleSoup.cpp.o: \
  /usr/include/c++/11/tr1/poly_hermite.tcc \
  /usr/include/c++/11/tr1/poly_laguerre.tcc \
  /usr/include/c++/11/tr1/riemann_zeta.tcc \
- /home/linn/Documents/VSCode/TNM046/glew/include/GL/glew.h \
+ /home/linn/Documents/VSCode/TNM046/lab1/GLprimer/glew/include/GL/glew.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h /usr/include/GL/glu.h \
@@ -195,6 +194,7 @@ CMakeFiles/tnm046-labs.dir/TriangleSoup.cpp.o: \
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc \
- /usr/include/c++/11/pstl/execution_defs.h \
- /home/linn/Documents/VSCode/TNM046/TriangleSoup.hpp \
- /home/linn/Documents/VSCode/TNM046/glfw-3.3.2/include/GLFW/glfw3.h
+ /usr/include/c++/11/pstl/execution_defs.h /usr/include/c++/11/cstring \
+ /usr/include/string.h /usr/include/strings.h \
+ /home/linn/Documents/VSCode/TNM046/lab1/GLprimer/TriangleSoup.hpp \
+ /home/linn/Documents/VSCode/TNM046/lab1/GLprimer/glfw-3.3.2/include/GLFW/glfw3.h

@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/linn/Documents/VSCode/TNM046/glew/src/glew.c" "glew/CMakeFiles/GLEW.dir/src/glew.c.o" "gcc" "glew/CMakeFiles/GLEW.dir/src/glew.c.o.d"
+  "/home/linn/Documents/VSCode/TNM046/lab1/GLprimer/glew/src/glew.c" "glew/CMakeFiles/GLEW.dir/src/glew.c.o" "gcc" "glew/CMakeFiles/GLEW.dir/src/glew.c.o.d"
   )
 
 # Targets to which this target links.

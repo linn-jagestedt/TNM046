@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/linn/Documents/VSCode/TNM046
+CMAKE_SOURCE_DIR = /home/linn/Documents/VSCode/TNM046/lab1/GLprimer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/linn/Documents/VSCode/TNM046/build
+CMAKE_BINARY_DIR = /home/linn/Documents/VSCode/TNM046/lab1/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/tnm046-labs.dir/depend.make
@@ -70,88 +70,88 @@ include CMakeFiles/tnm046-labs.dir/progress.make
 include CMakeFiles/tnm046-labs.dir/flags.make
 
 CMakeFiles/tnm046-labs.dir/GLprimer.cpp.o: CMakeFiles/tnm046-labs.dir/flags.make
-CMakeFiles/tnm046-labs.dir/GLprimer.cpp.o: ../GLprimer.cpp
+CMakeFiles/tnm046-labs.dir/GLprimer.cpp.o: /home/linn/Documents/VSCode/TNM046/lab1/GLprimer/GLprimer.cpp
 CMakeFiles/tnm046-labs.dir/GLprimer.cpp.o: CMakeFiles/tnm046-labs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/linn/Documents/VSCode/TNM046/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/tnm046-labs.dir/GLprimer.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tnm046-labs.dir/GLprimer.cpp.o -MF CMakeFiles/tnm046-labs.dir/GLprimer.cpp.o.d -o CMakeFiles/tnm046-labs.dir/GLprimer.cpp.o -c /home/linn/Documents/VSCode/TNM046/GLprimer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/linn/Documents/VSCode/TNM046/lab1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/tnm046-labs.dir/GLprimer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tnm046-labs.dir/GLprimer.cpp.o -MF CMakeFiles/tnm046-labs.dir/GLprimer.cpp.o.d -o CMakeFiles/tnm046-labs.dir/GLprimer.cpp.o -c /home/linn/Documents/VSCode/TNM046/lab1/GLprimer/GLprimer.cpp
 
 CMakeFiles/tnm046-labs.dir/GLprimer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tnm046-labs.dir/GLprimer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/linn/Documents/VSCode/TNM046/GLprimer.cpp > CMakeFiles/tnm046-labs.dir/GLprimer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/linn/Documents/VSCode/TNM046/lab1/GLprimer/GLprimer.cpp > CMakeFiles/tnm046-labs.dir/GLprimer.cpp.i
 
 CMakeFiles/tnm046-labs.dir/GLprimer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tnm046-labs.dir/GLprimer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/linn/Documents/VSCode/TNM046/GLprimer.cpp -o CMakeFiles/tnm046-labs.dir/GLprimer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/linn/Documents/VSCode/TNM046/lab1/GLprimer/GLprimer.cpp -o CMakeFiles/tnm046-labs.dir/GLprimer.cpp.s
 
 CMakeFiles/tnm046-labs.dir/Rotator.cpp.o: CMakeFiles/tnm046-labs.dir/flags.make
-CMakeFiles/tnm046-labs.dir/Rotator.cpp.o: ../Rotator.cpp
+CMakeFiles/tnm046-labs.dir/Rotator.cpp.o: /home/linn/Documents/VSCode/TNM046/lab1/GLprimer/Rotator.cpp
 CMakeFiles/tnm046-labs.dir/Rotator.cpp.o: CMakeFiles/tnm046-labs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/linn/Documents/VSCode/TNM046/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/tnm046-labs.dir/Rotator.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tnm046-labs.dir/Rotator.cpp.o -MF CMakeFiles/tnm046-labs.dir/Rotator.cpp.o.d -o CMakeFiles/tnm046-labs.dir/Rotator.cpp.o -c /home/linn/Documents/VSCode/TNM046/Rotator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/linn/Documents/VSCode/TNM046/lab1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/tnm046-labs.dir/Rotator.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tnm046-labs.dir/Rotator.cpp.o -MF CMakeFiles/tnm046-labs.dir/Rotator.cpp.o.d -o CMakeFiles/tnm046-labs.dir/Rotator.cpp.o -c /home/linn/Documents/VSCode/TNM046/lab1/GLprimer/Rotator.cpp
 
 CMakeFiles/tnm046-labs.dir/Rotator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tnm046-labs.dir/Rotator.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/linn/Documents/VSCode/TNM046/Rotator.cpp > CMakeFiles/tnm046-labs.dir/Rotator.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/linn/Documents/VSCode/TNM046/lab1/GLprimer/Rotator.cpp > CMakeFiles/tnm046-labs.dir/Rotator.cpp.i
 
 CMakeFiles/tnm046-labs.dir/Rotator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tnm046-labs.dir/Rotator.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/linn/Documents/VSCode/TNM046/Rotator.cpp -o CMakeFiles/tnm046-labs.dir/Rotator.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/linn/Documents/VSCode/TNM046/lab1/GLprimer/Rotator.cpp -o CMakeFiles/tnm046-labs.dir/Rotator.cpp.s
 
 CMakeFiles/tnm046-labs.dir/Shader.cpp.o: CMakeFiles/tnm046-labs.dir/flags.make
-CMakeFiles/tnm046-labs.dir/Shader.cpp.o: ../Shader.cpp
+CMakeFiles/tnm046-labs.dir/Shader.cpp.o: /home/linn/Documents/VSCode/TNM046/lab1/GLprimer/Shader.cpp
 CMakeFiles/tnm046-labs.dir/Shader.cpp.o: CMakeFiles/tnm046-labs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/linn/Documents/VSCode/TNM046/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/tnm046-labs.dir/Shader.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tnm046-labs.dir/Shader.cpp.o -MF CMakeFiles/tnm046-labs.dir/Shader.cpp.o.d -o CMakeFiles/tnm046-labs.dir/Shader.cpp.o -c /home/linn/Documents/VSCode/TNM046/Shader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/linn/Documents/VSCode/TNM046/lab1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/tnm046-labs.dir/Shader.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tnm046-labs.dir/Shader.cpp.o -MF CMakeFiles/tnm046-labs.dir/Shader.cpp.o.d -o CMakeFiles/tnm046-labs.dir/Shader.cpp.o -c /home/linn/Documents/VSCode/TNM046/lab1/GLprimer/Shader.cpp
 
 CMakeFiles/tnm046-labs.dir/Shader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tnm046-labs.dir/Shader.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/linn/Documents/VSCode/TNM046/Shader.cpp > CMakeFiles/tnm046-labs.dir/Shader.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/linn/Documents/VSCode/TNM046/lab1/GLprimer/Shader.cpp > CMakeFiles/tnm046-labs.dir/Shader.cpp.i
 
 CMakeFiles/tnm046-labs.dir/Shader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tnm046-labs.dir/Shader.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/linn/Documents/VSCode/TNM046/Shader.cpp -o CMakeFiles/tnm046-labs.dir/Shader.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/linn/Documents/VSCode/TNM046/lab1/GLprimer/Shader.cpp -o CMakeFiles/tnm046-labs.dir/Shader.cpp.s
 
 CMakeFiles/tnm046-labs.dir/Texture.cpp.o: CMakeFiles/tnm046-labs.dir/flags.make
-CMakeFiles/tnm046-labs.dir/Texture.cpp.o: ../Texture.cpp
+CMakeFiles/tnm046-labs.dir/Texture.cpp.o: /home/linn/Documents/VSCode/TNM046/lab1/GLprimer/Texture.cpp
 CMakeFiles/tnm046-labs.dir/Texture.cpp.o: CMakeFiles/tnm046-labs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/linn/Documents/VSCode/TNM046/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/tnm046-labs.dir/Texture.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tnm046-labs.dir/Texture.cpp.o -MF CMakeFiles/tnm046-labs.dir/Texture.cpp.o.d -o CMakeFiles/tnm046-labs.dir/Texture.cpp.o -c /home/linn/Documents/VSCode/TNM046/Texture.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/linn/Documents/VSCode/TNM046/lab1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/tnm046-labs.dir/Texture.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tnm046-labs.dir/Texture.cpp.o -MF CMakeFiles/tnm046-labs.dir/Texture.cpp.o.d -o CMakeFiles/tnm046-labs.dir/Texture.cpp.o -c /home/linn/Documents/VSCode/TNM046/lab1/GLprimer/Texture.cpp
 
 CMakeFiles/tnm046-labs.dir/Texture.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tnm046-labs.dir/Texture.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/linn/Documents/VSCode/TNM046/Texture.cpp > CMakeFiles/tnm046-labs.dir/Texture.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/linn/Documents/VSCode/TNM046/lab1/GLprimer/Texture.cpp > CMakeFiles/tnm046-labs.dir/Texture.cpp.i
 
 CMakeFiles/tnm046-labs.dir/Texture.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tnm046-labs.dir/Texture.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/linn/Documents/VSCode/TNM046/Texture.cpp -o CMakeFiles/tnm046-labs.dir/Texture.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/linn/Documents/VSCode/TNM046/lab1/GLprimer/Texture.cpp -o CMakeFiles/tnm046-labs.dir/Texture.cpp.s
 
 CMakeFiles/tnm046-labs.dir/TriangleSoup.cpp.o: CMakeFiles/tnm046-labs.dir/flags.make
-CMakeFiles/tnm046-labs.dir/TriangleSoup.cpp.o: ../TriangleSoup.cpp
+CMakeFiles/tnm046-labs.dir/TriangleSoup.cpp.o: /home/linn/Documents/VSCode/TNM046/lab1/GLprimer/TriangleSoup.cpp
 CMakeFiles/tnm046-labs.dir/TriangleSoup.cpp.o: CMakeFiles/tnm046-labs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/linn/Documents/VSCode/TNM046/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/tnm046-labs.dir/TriangleSoup.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tnm046-labs.dir/TriangleSoup.cpp.o -MF CMakeFiles/tnm046-labs.dir/TriangleSoup.cpp.o.d -o CMakeFiles/tnm046-labs.dir/TriangleSoup.cpp.o -c /home/linn/Documents/VSCode/TNM046/TriangleSoup.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/linn/Documents/VSCode/TNM046/lab1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/tnm046-labs.dir/TriangleSoup.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tnm046-labs.dir/TriangleSoup.cpp.o -MF CMakeFiles/tnm046-labs.dir/TriangleSoup.cpp.o.d -o CMakeFiles/tnm046-labs.dir/TriangleSoup.cpp.o -c /home/linn/Documents/VSCode/TNM046/lab1/GLprimer/TriangleSoup.cpp
 
 CMakeFiles/tnm046-labs.dir/TriangleSoup.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tnm046-labs.dir/TriangleSoup.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/linn/Documents/VSCode/TNM046/TriangleSoup.cpp > CMakeFiles/tnm046-labs.dir/TriangleSoup.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/linn/Documents/VSCode/TNM046/lab1/GLprimer/TriangleSoup.cpp > CMakeFiles/tnm046-labs.dir/TriangleSoup.cpp.i
 
 CMakeFiles/tnm046-labs.dir/TriangleSoup.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tnm046-labs.dir/TriangleSoup.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/linn/Documents/VSCode/TNM046/TriangleSoup.cpp -o CMakeFiles/tnm046-labs.dir/TriangleSoup.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/linn/Documents/VSCode/TNM046/lab1/GLprimer/TriangleSoup.cpp -o CMakeFiles/tnm046-labs.dir/TriangleSoup.cpp.s
 
 CMakeFiles/tnm046-labs.dir/Utilities.cpp.o: CMakeFiles/tnm046-labs.dir/flags.make
-CMakeFiles/tnm046-labs.dir/Utilities.cpp.o: ../Utilities.cpp
+CMakeFiles/tnm046-labs.dir/Utilities.cpp.o: /home/linn/Documents/VSCode/TNM046/lab1/GLprimer/Utilities.cpp
 CMakeFiles/tnm046-labs.dir/Utilities.cpp.o: CMakeFiles/tnm046-labs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/linn/Documents/VSCode/TNM046/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/tnm046-labs.dir/Utilities.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tnm046-labs.dir/Utilities.cpp.o -MF CMakeFiles/tnm046-labs.dir/Utilities.cpp.o.d -o CMakeFiles/tnm046-labs.dir/Utilities.cpp.o -c /home/linn/Documents/VSCode/TNM046/Utilities.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/linn/Documents/VSCode/TNM046/lab1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/tnm046-labs.dir/Utilities.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tnm046-labs.dir/Utilities.cpp.o -MF CMakeFiles/tnm046-labs.dir/Utilities.cpp.o.d -o CMakeFiles/tnm046-labs.dir/Utilities.cpp.o -c /home/linn/Documents/VSCode/TNM046/lab1/GLprimer/Utilities.cpp
 
 CMakeFiles/tnm046-labs.dir/Utilities.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tnm046-labs.dir/Utilities.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/linn/Documents/VSCode/TNM046/Utilities.cpp > CMakeFiles/tnm046-labs.dir/Utilities.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/linn/Documents/VSCode/TNM046/lab1/GLprimer/Utilities.cpp > CMakeFiles/tnm046-labs.dir/Utilities.cpp.i
 
 CMakeFiles/tnm046-labs.dir/Utilities.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tnm046-labs.dir/Utilities.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/linn/Documents/VSCode/TNM046/Utilities.cpp -o CMakeFiles/tnm046-labs.dir/Utilities.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/linn/Documents/VSCode/TNM046/lab1/GLprimer/Utilities.cpp -o CMakeFiles/tnm046-labs.dir/Utilities.cpp.s
 
 # Object files for target tnm046-labs
 tnm046__labs_OBJECTS = \
@@ -183,7 +183,7 @@ tnm046-labs: /usr/lib/x86_64-linux-gnu/libOpenGL.so
 tnm046-labs: /usr/lib/x86_64-linux-gnu/libGLX.so
 tnm046-labs: /usr/lib/x86_64-linux-gnu/libGLU.so
 tnm046-labs: CMakeFiles/tnm046-labs.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/linn/Documents/VSCode/TNM046/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable tnm046-labs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/linn/Documents/VSCode/TNM046/lab1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable tnm046-labs"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tnm046-labs.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -195,6 +195,6 @@ CMakeFiles/tnm046-labs.dir/clean:
 .PHONY : CMakeFiles/tnm046-labs.dir/clean
 
 CMakeFiles/tnm046-labs.dir/depend:
-	cd /home/linn/Documents/VSCode/TNM046/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/linn/Documents/VSCode/TNM046 /home/linn/Documents/VSCode/TNM046 /home/linn/Documents/VSCode/TNM046/build /home/linn/Documents/VSCode/TNM046/build /home/linn/Documents/VSCode/TNM046/build/CMakeFiles/tnm046-labs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/linn/Documents/VSCode/TNM046/lab1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/linn/Documents/VSCode/TNM046/lab1/GLprimer /home/linn/Documents/VSCode/TNM046/lab1/GLprimer /home/linn/Documents/VSCode/TNM046/lab1/build /home/linn/Documents/VSCode/TNM046/lab1/build /home/linn/Documents/VSCode/TNM046/lab1/build/CMakeFiles/tnm046-labs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/tnm046-labs.dir/depend
 

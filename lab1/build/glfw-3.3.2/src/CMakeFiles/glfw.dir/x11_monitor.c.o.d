@@ -1,9 +1,9 @@
 glfw-3.3.2/src/CMakeFiles/glfw.dir/x11_monitor.c.o: \
- /home/linn/Documents/VSCode/TNM046/glfw-3.3.2/src/x11_monitor.c \
+ /home/linn/Documents/VSCode/TNM046/lab1/GLprimer/glfw-3.3.2/src/x11_monitor.c \
  /usr/include/stdc-predef.h \
- /home/linn/Documents/VSCode/TNM046/glfw-3.3.2/src/internal.h \
- /home/linn/Documents/VSCode/TNM046/build/glfw-3.3.2/src/glfw_config.h \
- /home/linn/Documents/VSCode/TNM046/glfw-3.3.2/src/../include/GLFW/glfw3.h \
+ /home/linn/Documents/VSCode/TNM046/lab1/GLprimer/glfw-3.3.2/src/internal.h \
+ /home/linn/Documents/VSCode/TNM046/lab1/build/glfw-3.3.2/src/glfw_config.h \
+ /home/linn/Documents/VSCode/TNM046/lab1/GLprimer/glfw-3.3.2/src/../include/GLFW/glfw3.h \
  /usr/lib/gcc/x86_64-linux-gnu/12/include/stddef.h \
  /usr/lib/gcc/x86_64-linux-gnu/12/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
@@ -20,7 +20,7 @@ glfw-3.3.2/src/CMakeFiles/glfw.dir/x11_monitor.c.o: \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /home/linn/Documents/VSCode/TNM046/glfw-3.3.2/src/x11_platform.h \
+ /home/linn/Documents/VSCode/TNM046/lab1/GLprimer/glfw-3.3.2/src/x11_platform.h \
  /usr/include/unistd.h /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
  /usr/include/x86_64-linux-gnu/bits/environments.h \
  /usr/include/x86_64-linux-gnu/bits/confname.h \
@@ -91,7 +91,7 @@ glfw-3.3.2/src/CMakeFiles/glfw.dir/x11_monitor.c.o: \
  /usr/include/X11/extensions/XInput2.h /usr/include/X11/extensions/XI2.h \
  /usr/include/X11/extensions/Xge.h /usr/include/X11/extensions/Xfixes.h \
  /usr/include/X11/extensions/xfixeswire.h \
- /home/linn/Documents/VSCode/TNM046/glfw-3.3.2/src/posix_thread.h \
+ /home/linn/Documents/VSCode/TNM046/lab1/GLprimer/glfw-3.3.2/src/posix_thread.h \
  /usr/include/pthread.h /usr/include/sched.h \
  /usr/include/x86_64-linux-gnu/bits/sched.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
@@ -105,12 +105,12 @@ glfw-3.3.2/src/CMakeFiles/glfw.dir/x11_monitor.c.o: \
  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min.h \
- /home/linn/Documents/VSCode/TNM046/glfw-3.3.2/src/posix_time.h \
- /home/linn/Documents/VSCode/TNM046/glfw-3.3.2/src/xkb_unicode.h \
- /home/linn/Documents/VSCode/TNM046/glfw-3.3.2/src/glx_context.h \
- /home/linn/Documents/VSCode/TNM046/glfw-3.3.2/src/egl_context.h \
- /home/linn/Documents/VSCode/TNM046/glfw-3.3.2/src/osmesa_context.h \
- /home/linn/Documents/VSCode/TNM046/glfw-3.3.2/src/linux_joystick.h \
+ /home/linn/Documents/VSCode/TNM046/lab1/GLprimer/glfw-3.3.2/src/posix_time.h \
+ /home/linn/Documents/VSCode/TNM046/lab1/GLprimer/glfw-3.3.2/src/xkb_unicode.h \
+ /home/linn/Documents/VSCode/TNM046/lab1/GLprimer/glfw-3.3.2/src/glx_context.h \
+ /home/linn/Documents/VSCode/TNM046/lab1/GLprimer/glfw-3.3.2/src/egl_context.h \
+ /home/linn/Documents/VSCode/TNM046/lab1/GLprimer/glfw-3.3.2/src/osmesa_context.h \
+ /home/linn/Documents/VSCode/TNM046/lab1/GLprimer/glfw-3.3.2/src/linux_joystick.h \
  /usr/include/linux/input.h /usr/include/x86_64-linux-gnu/sys/time.h \
  /usr/include/x86_64-linux-gnu/sys/ioctl.h \
  /usr/include/x86_64-linux-gnu/bits/ioctls.h \

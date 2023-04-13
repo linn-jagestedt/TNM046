@@ -1,0 +1,10 @@
+^\\AD.LIU.SE\HOME\ELSTA728\DESKTOP\LAB2\GLPRIMER\GLFW-3.3.2\SRC\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -S//ad.liu.se/home/elsta728/Desktop/lab2/GLprimer -B//ad.liu.se/home/elsta728/Desktop/lab2/build --check-stamp-file //ad.liu.se/home/elsta728/Desktop/lab2/build/glfw-3.3.2/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

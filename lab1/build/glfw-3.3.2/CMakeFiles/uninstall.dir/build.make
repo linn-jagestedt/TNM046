@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/linn/Documents/VSCode/TNM046
+CMAKE_SOURCE_DIR = /home/linn/Documents/VSCode/TNM046/lab1/GLprimer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/linn/Documents/VSCode/TNM046/build
+CMAKE_BINARY_DIR = /home/linn/Documents/VSCode/TNM046/lab1/build
 
 # Utility rule file for uninstall.
 
@@ -67,7 +67,7 @@ include glfw-3.3.2/CMakeFiles/uninstall.dir/compiler_depend.make
 include glfw-3.3.2/CMakeFiles/uninstall.dir/progress.make
 
 glfw-3.3.2/CMakeFiles/uninstall:
-	cd /home/linn/Documents/VSCode/TNM046/build/glfw-3.3.2 && /usr/bin/cmake -P /home/linn/Documents/VSCode/TNM046/build/glfw-3.3.2/cmake_uninstall.cmake
+	cd /home/linn/Documents/VSCode/TNM046/lab1/build/glfw-3.3.2 && /usr/bin/cmake -P /home/linn/Documents/VSCode/TNM046/lab1/build/glfw-3.3.2/cmake_uninstall.cmake
 
 uninstall: glfw-3.3.2/CMakeFiles/uninstall
 uninstall: glfw-3.3.2/CMakeFiles/uninstall.dir/build.make
@@ -78,10 +78,10 @@ glfw-3.3.2/CMakeFiles/uninstall.dir/build: uninstall
 .PHONY : glfw-3.3.2/CMakeFiles/uninstall.dir/build
 
 glfw-3.3.2/CMakeFiles/uninstall.dir/clean:
-	cd /home/linn/Documents/VSCode/TNM046/build/glfw-3.3.2 && $(CMAKE_COMMAND) -P CMakeFiles/uninstall.dir/cmake_clean.cmake
+	cd /home/linn/Documents/VSCode/TNM046/lab1/build/glfw-3.3.2 && $(CMAKE_COMMAND) -P CMakeFiles/uninstall.dir/cmake_clean.cmake
 .PHONY : glfw-3.3.2/CMakeFiles/uninstall.dir/clean
 
 glfw-3.3.2/CMakeFiles/uninstall.dir/depend:
-	cd /home/linn/Documents/VSCode/TNM046/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/linn/Documents/VSCode/TNM046 /home/linn/Documents/VSCode/TNM046/glfw-3.3.2 /home/linn/Documents/VSCode/TNM046/build /home/linn/Documents/VSCode/TNM046/build/glfw-3.3.2 /home/linn/Documents/VSCode/TNM046/build/glfw-3.3.2/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/linn/Documents/VSCode/TNM046/lab1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/linn/Documents/VSCode/TNM046/lab1/GLprimer /home/linn/Documents/VSCode/TNM046/lab1/GLprimer/glfw-3.3.2 /home/linn/Documents/VSCode/TNM046/lab1/build /home/linn/Documents/VSCode/TNM046/lab1/build/glfw-3.3.2 /home/linn/Documents/VSCode/TNM046/lab1/build/glfw-3.3.2/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : glfw-3.3.2/CMakeFiles/uninstall.dir/depend
 

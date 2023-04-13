@@ -1,8 +1,8 @@
 CMakeFiles/tnm046-labs.dir/Utilities.cpp.o: \
- /home/linn/Documents/VSCode/TNM046/Utilities.cpp \
+ /home/linn/Documents/VSCode/TNM046/lab1/GLprimer/Utilities.cpp \
  /usr/include/stdc-predef.h \
- /home/linn/Documents/VSCode/TNM046/Utilities.hpp \
- /home/linn/Documents/VSCode/TNM046/glfw-3.3.2/include/GLFW/glfw3.h \
+ /home/linn/Documents/VSCode/TNM046/lab1/GLprimer/Utilities.hpp \
+ /home/linn/Documents/VSCode/TNM046/lab1/GLprimer/glfw-3.3.2/include/GLFW/glfw3.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \

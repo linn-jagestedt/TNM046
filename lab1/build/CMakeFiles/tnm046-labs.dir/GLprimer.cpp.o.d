@@ -1,5 +1,5 @@
 CMakeFiles/tnm046-labs.dir/GLprimer.cpp.o: \
- /home/linn/Documents/VSCode/TNM046/GLprimer.cpp \
+ /home/linn/Documents/VSCode/TNM046/lab1/GLprimer/GLprimer.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -168,12 +168,12 @@ CMakeFiles/tnm046-labs.dir/GLprimer.cpp.o: \
  /usr/include/c++/11/tr1/poly_hermite.tcc \
  /usr/include/c++/11/tr1/poly_laguerre.tcc \
  /usr/include/c++/11/tr1/riemann_zeta.tcc \
- /home/linn/Documents/VSCode/TNM046/glew/include/GL/glew.h \
+ /home/linn/Documents/VSCode/TNM046/lab1/GLprimer/glew/include/GL/glew.h \
  /usr/include/GL/glu.h /usr/include/GL/gl.h \
- /home/linn/Documents/VSCode/TNM046/glfw-3.3.2/include/GLFW/glfw3.h \
- /home/linn/Documents/VSCode/TNM046/Utilities.hpp \
- /home/linn/Documents/VSCode/TNM046/Shader.hpp /usr/include/c++/11/vector \
- /usr/include/c++/11/bits/stl_uninitialized.h \
+ /home/linn/Documents/VSCode/TNM046/lab1/GLprimer/glfw-3.3.2/include/GLFW/glfw3.h \
+ /home/linn/Documents/VSCode/TNM046/lab1/GLprimer/Utilities.hpp \
+ /home/linn/Documents/VSCode/TNM046/lab1/GLprimer/Shader.hpp \
+ /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_uninitialized.h \
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc

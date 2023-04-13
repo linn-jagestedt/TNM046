@@ -1,5 +1,5 @@
 CMakeFiles/tnm046-labs.dir/Texture.cpp.o: \
- /home/linn/Documents/VSCode/TNM046/Texture.cpp \
+ /home/linn/Documents/VSCode/TNM046/lab1/GLprimer/Texture.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/cstdio \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -175,7 +175,7 @@ CMakeFiles/tnm046-labs.dir/Texture.cpp.o: \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc \
  /usr/include/c++/11/pstl/execution_defs.h \
- /home/linn/Documents/VSCode/TNM046/glew/include/GL/glew.h \
+ /home/linn/Documents/VSCode/TNM046/lab1/GLprimer/glew/include/GL/glew.h \
  /usr/include/GL/glu.h /usr/include/GL/gl.h \
- /home/linn/Documents/VSCode/TNM046/Texture.hpp \
- /home/linn/Documents/VSCode/TNM046/glfw-3.3.2/include/GLFW/glfw3.h
+ /home/linn/Documents/VSCode/TNM046/lab1/GLprimer/Texture.hpp \
+ /home/linn/Documents/VSCode/TNM046/lab1/GLprimer/glfw-3.3.2/include/GLFW/glfw3.h

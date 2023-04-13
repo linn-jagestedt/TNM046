@@ -1,4 +1,4 @@
-# Install script for directory: /home/linn/Documents/VSCode/TNM046/glew
+# Install script for directory: /home/linn/Documents/VSCode/TNM046/lab1/GLprimer/glew
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

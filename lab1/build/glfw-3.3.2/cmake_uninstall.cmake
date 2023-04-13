@@ -1,9 +1,9 @@
 
-if (NOT EXISTS "/home/linn/Documents/VSCode/TNM046/build/glfw-3.3.2/install_manifest.txt")
-  message(FATAL_ERROR "Cannot find install manifest: \"/home/linn/Documents/VSCode/TNM046/build/glfw-3.3.2/install_manifest.txt\"")
+if (NOT EXISTS "/home/linn/Documents/VSCode/TNM046/lab1/build/glfw-3.3.2/install_manifest.txt")
+  message(FATAL_ERROR "Cannot find install manifest: \"/home/linn/Documents/VSCode/TNM046/lab1/build/glfw-3.3.2/install_manifest.txt\"")
 endif()
 
-file(READ "/home/linn/Documents/VSCode/TNM046/build/glfw-3.3.2/install_manifest.txt" files)
+file(READ "/home/linn/Documents/VSCode/TNM046/lab1/build/glfw-3.3.2/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 
 foreach (file ${files})

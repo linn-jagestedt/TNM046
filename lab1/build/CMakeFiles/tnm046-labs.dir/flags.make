@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DGLEW_STATIC
 
-CXX_INCLUDES = -I/home/linn/Documents/VSCode/TNM046/glfw-3.3.2/include -I/home/linn/Documents/VSCode/TNM046/glew/include
+CXX_INCLUDES = -I/home/linn/Documents/VSCode/TNM046/lab1/GLprimer/glfw-3.3.2/include -I/home/linn/Documents/VSCode/TNM046/lab1/GLprimer/glew/include
 
 CXX_FLAGS = -g -Wall -Wextra -Wconversion -std=c++17
 

@@ -1,7 +1,7 @@
 glew/CMakeFiles/GLEW.dir/src/glew.c.o: \
- /home/linn/Documents/VSCode/TNM046/glew/src/glew.c \
+ /home/linn/Documents/VSCode/TNM046/lab1/GLprimer/glew/src/glew.c \
  /usr/include/stdc-predef.h \
- /home/linn/Documents/VSCode/TNM046/glew/include/GL/glew.h \
+ /home/linn/Documents/VSCode/TNM046/lab1/GLprimer/glew/include/GL/glew.h \
  /usr/lib/gcc/x86_64-linux-gnu/12/include/stddef.h \
  /usr/lib/gcc/x86_64-linux-gnu/12/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
@@ -19,7 +19,7 @@ glew/CMakeFiles/GLEW.dir/src/glew.c.o: \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h /usr/include/GL/glu.h \
  /usr/include/GL/gl.h \
- /home/linn/Documents/VSCode/TNM046/glew/include/GL/glxew.h \
+ /home/linn/Documents/VSCode/TNM046/lab1/GLprimer/glew/include/GL/glxew.h \
  /usr/include/X11/Xlib.h /usr/include/x86_64-linux-gnu/sys/types.h \
  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
