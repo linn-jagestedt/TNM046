@@ -28,5 +28,6 @@ double displayFPS(GLFWwindow* window);
 std::array<GLfloat, 16> multiplyMatrices(std::array<GLfloat, 16> a, std::array<GLfloat, 16> b);
 std::array<GLfloat, 16> getYRotation(GLfloat angle);
 std::array<GLfloat, 16> getZRotation(GLfloat angle);
+std::array<GLfloat, 16> getXRotation(GLfloat angle);
 
 }  // namespace util

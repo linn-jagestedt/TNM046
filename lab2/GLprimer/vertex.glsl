@@ -10,7 +10,7 @@ out vec3 uColor;
 out float uTime;
 
 void main() {
-    gl_Position =  translation * vec4(Position / 2, 1.0);
+    gl_Position =  translation * vec4(Position / 8, 1.0);
     uColor = Color;
     uTime = time;
 }

@@ -149,24 +149,18 @@ int main(int, char*[]) {
         GLfloat time = glfwGetTime();
         glUniform1f(locationTime, time);
 
-        std::array<GLfloat, 16> matR;
-        
-        matR = util::multiplyMatrices(
-            util::getYRotation(time), 
-            util::getZRotation(time)
-        );
-
         std::array<GLfloat, 16> matT = {
             1.0f, 0.0f, 0.0f, 0.0f,
             0.0f, 1.0f, 0.0f, 0.0f,
             0.0f, 0.0f, 1.0f, 0.0f,
-            0.0f, 0.0f, 0.0f, 1.0f
+            0.5f, 0.0f, 0.0f, 1.0f
         };
+        
+        std::array<GLfloat, 16> matR;
 
-        matR = util::multiplyMatrices(
-            matT,
-            matR
-        );
+        matR = util::multiplyMatrices(matT, util::getYRotation(-time * 2));
+        matR = util::multiplyMatrices(util::getYRotation(time), matR);
+        matR = util::multiplyMatrices(util::getXRotation(10), matR);
 
         glUniformMatrix4fv(locationT, 1, GL_FALSE, matR.data());
 
