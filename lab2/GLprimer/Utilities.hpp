@@ -8,6 +8,9 @@
  */
 #pragma once
 
+#include <array>
+#include <GLFW/glfw3.h>
+
 struct GLFWwindow;
 
 namespace util {
@@ -22,5 +25,8 @@ namespace util {
  * windows. Call it only for one window, and only once every frame.
  */
 double displayFPS(GLFWwindow* window);
+std::array<GLfloat, 16> multiplyMatrices(std::array<GLfloat, 16> a, std::array<GLfloat, 16> b);
+std::array<GLfloat, 16> getYRotation(GLfloat angle);
+std::array<GLfloat, 16> getZRotation(GLfloat angle);
 
 }  // namespace util

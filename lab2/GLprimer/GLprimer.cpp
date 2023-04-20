@@ -27,8 +27,7 @@ GLuint CreateIndexBuffer(std::vector<GLuint> data) {
     GLuint id;
     glGenBuffers(1, &id);
     glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, id);
-    glBufferData(GL_ELEMENT_ARRAY_BUFFER, data.size() * sizeof(GLuint), data.data(),
-                 GL_STATIC_DRAW);
+    glBufferData(GL_ELEMENT_ARRAY_BUFFER, data.size() * sizeof(GLuint), data.data(), GL_STATIC_DRAW);
     return id;
 }
 
@@ -128,22 +127,16 @@ int main(int, char*[]) {
     GLuint colorBufferID = CreateVertexBuffer(1, 3, colors);
     GLuint indexBufferID = CreateIndexBuffer(indicies);
 
-    Shader myShader = Shader("vertex.glsl", "fragment.glsl");
-    //Shader myShader = Shader("/home/linn/Documents/VSCode/TNM046/lab2/GLprimer/vertex.glsl", "/home/linn/Documents/VSCode/TNM046/lab2/GLprimer/fragment.glsl");
+    //Shader myShader = Shader("vertex.glsl", "fragment.glsl");
+    Shader myShader = Shader("/home/linn/Documents/VSCode/TNM046/lab2/GLprimer/vertex.glsl", "/home/linn/Documents/VSCode/TNM046/lab2/GLprimer/fragment.glsl");
 
     GLint locationTime = glGetUniformLocation(myShader.id(), "time");
     GLint locationT = glGetUniformLocation(myShader.id(), "translation");
 
-    std::array<GLfloat, 16> matT = {
-        1.0f, 0.0f, 0.0f, 0.0f,
-        0.0f, 1.0f, 0.0f, 0.5f,
-        0.0f, 0.0f, 1.0f, 0.0f,
-        0.0f, 0.0f, 0.0f, 1.0f
-    };
-
     glBindVertexArray(0);
 
-    while (!glfwWindowShouldClose(window)) {
+    while (!glfwWindowShouldClose(window)) 
+    {
         int width, height;
         glfwGetWindowSize(window, &width, &height);
         glViewport(0, 0, width, height);
@@ -152,9 +145,30 @@ int main(int, char*[]) {
 
         glUseProgram(myShader.id());
         glBindVertexArray(vertexArrayID);
+        
+        GLfloat time = glfwGetTime();
+        glUniform1f(locationTime, time);
 
-        glUniform1f(locationTime, glfwGetTime());
-        glUniformMatrix4fv(locationT, 1, GL_TRUE, matT.data());
+        std::array<GLfloat, 16> matR;
+        
+        matR = util::multiplyMatrices(
+            util::getYRotation(time), 
+            util::getZRotation(time)
+        );
+
+        std::array<GLfloat, 16> matT = {
+            1.0f, 0.0f, 0.0f, 0.0f,
+            0.0f, 1.0f, 0.0f, 0.0f,
+            0.0f, 0.0f, 1.0f, 0.0f,
+            0.0f, 0.0f, 0.0f, 1.0f
+        };
+
+        matR = util::multiplyMatrices(
+            matT,
+            matR
+        );
+
+        glUniformMatrix4fv(locationT, 1, GL_FALSE, matR.data());
 
         glDrawElements(GL_TRIANGLES, std::size(indicies), GL_UNSIGNED_INT, nullptr);
 
