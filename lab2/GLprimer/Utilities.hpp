@@ -29,5 +29,6 @@ std::array<GLfloat, 16> multiplyMatrices(std::array<GLfloat, 16> a, std::array<G
 std::array<GLfloat, 16> getYRotation(GLfloat angle);
 std::array<GLfloat, 16> getZRotation(GLfloat angle);
 std::array<GLfloat, 16> getXRotation(GLfloat angle);
+std::array<GLfloat, 16> transpose(std::array<GLfloat, 16> a);
 
 }  // namespace util

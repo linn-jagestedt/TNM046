@@ -97,4 +97,19 @@ namespace util
             0, 0, 0, 1
         });
     }
-} 
+
+    std::array<float, 16> mat4perspective(float vfov, float aspect, float znear, float zfar) {
+        float f = tan(M_PI_2 - (vfov / 2.0f));
+        float M11 = f/aspect;
+        float M22 = f;
+        float M34 = -1;
+        float M33 = -(zfar + znear) / (zfar - znear);
+        float M43 = -(2 * zfar * znear) / (zfar - znear);
+        return {
+            M11, 0, 0, 0,
+            0, M22, 0, 0,
+            0, 0, M33, M34,
+            0, 0, M43, 0
+        };
+    }
+}

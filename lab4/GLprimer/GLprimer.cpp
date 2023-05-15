@@ -54,21 +54,22 @@ int main(int, char*[]) {
 
     glfwSwapInterval(0);
     glClearColor(0.3f, 0.3f, 0.3f, 0.0f);
-    glEnable(GL_CULL_FACE);
+    //glEnable(GL_CULL_FACE);
+    glDepthRange(0.1, 100);
 
     /// Create Shape
 
     TriangleSoup myshape;
-    myshape.createSphere(0.8f, 100);
+    myshape.createBox(0.2f, 0.2f, 1.0f);
 
     //Shader myShader = Shader("vertex.glsl", "fragment.glsl");
     Shader myShader = Shader("/home/linn/Documents/VSCode/TNM046/lab4/GLprimer/vertex.glsl", "/home/linn/Documents/VSCode/TNM046/lab4/GLprimer/fragment.glsl");
 
-    Texture myTexture = Texture("/home/linn/Documents/VSCode/TNM046/lab4/GLprimer/pingu.tga");
+    //Texture myTexture = Texture("/home/linn/Documents/VSCode/TNM046/lab4/GLprimer/pingu.tga");
 
     GLint locationTime = glGetUniformLocation(myShader.id(), "time");
-    GLint locationT = glGetUniformLocation(myShader.id(), "translation");
-    GLint locationR = glGetUniformLocation(myShader.id(), "rotation");
+    GLint locationV = glGetUniformLocation(myShader.id(), "view");
+    GLint locationP = glGetUniformLocation(myShader.id(), "proj");
 
     glBindVertexArray(0);
 
@@ -85,28 +86,31 @@ int main(int, char*[]) {
         GLfloat time = glfwGetTime();
         glUniform1f(locationTime, time);
 
-        std::array<GLfloat, 16> matR;
+        std::array<GLfloat, 16> matP = 
+            util::mat4perspective(
+                M_PI / 4.0, 
+                1.0f, 
+                0.1f, 
+                100.0f
+            );
+
+        std::array<GLfloat, 16> matV = util::multiplyMatrices(
+            {
+                1.0, 0,   0,   0,
+                0,   1.0, 0,   0,
+                0,   0,   1.0, 0,
+                0,   0,   -3.0, 1.0
+            },
+            util::multiplyMatrices(
+                util::getYRotation(time), 
+                util::getXRotation(-0.1)
+            )
+        );
         
-        matR = util::multiplyMatrices(
-            util::getYRotation(time / 3), 
-            util::getZRotation(time)
-        );
+        glUniformMatrix4fv(locationP, 1, GL_FALSE, matP.data());
+        glUniformMatrix4fv(locationV, 1, GL_FALSE, matV.data());
 
-        std::array<GLfloat, 16> matT = {
-            1.0f, 0.0f, 0.0f, 0.0f,
-            0.0f, 1.0f, 0.0f, 0.0f,
-            0.0f, 0.0f, 1.0f, 0.0f,
-            1.0f, 0.0f, 0.0f, 1.0f
-        };
-
-        matR = util::multiplyMatrices(
-            matR,
-            matT
-        );
-
-        glUniformMatrix4fv(locationT, 1, GL_FALSE, matR.data());
-        glUniformMatrix4fv(locationR, 1, GL_FALSE, util::multiplyMatrices(util::getZRotation(time), util::getYRotation(time / 2)).data());
-
+        glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
         myshape.render();
 
         glfwSwapBuffers(window);

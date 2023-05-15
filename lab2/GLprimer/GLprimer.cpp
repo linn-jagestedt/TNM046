@@ -150,15 +150,17 @@ int main(int, char*[]) {
         glUniform1f(locationTime, time);
 
         std::array<GLfloat, 16> matT = {
-            1.0f, 0.0f, 0.0f, 0.0f,
+            1.0f, 0.0f, 0.0f, 0.5f,
             0.0f, 1.0f, 0.0f, 0.0f,
             0.0f, 0.0f, 1.0f, 0.0f,
-            0.5f, 0.0f, 0.0f, 1.0f
+            0.0f, 0.0f, 0.0f, 1.0f
         };
         
-        std::array<GLfloat, 16> matR;
+        matT = util::transpose(matT);
 
-        matR = util::multiplyMatrices(matT, util::getYRotation(-time * 2));
+        std::array<GLfloat, 16> matR;
+ 
+        matR = util::multiplyMatrices(matT, util::getYRotation(-time * 10));
         matR = util::multiplyMatrices(util::getYRotation(time), matR);
         matR = util::multiplyMatrices(util::getXRotation(10), matR);
 

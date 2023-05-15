@@ -3,7 +3,6 @@
 in float uTime;
 in vec3 uNormal;
 in vec2 UV;
-in mat4 uTranslation;
 
 uniform sampler2D uTexture;
 
@@ -20,7 +19,7 @@ vec2 SineWave( vec2 p ) {
 
 void main() 
 {
-    vec3 light = vec3(uTranslation * vec4(0.0, 0.0, 0.0, 1.0));
+    vec3 light = vec3(vec4(1.0, 1.0, 0.0, 1.0));
 
     vec3 R = 2.0 * dot(uNormal, light) * uNormal - light;
     float dotNL = max(dot(uNormal, light), 0.0); 
@@ -30,10 +29,10 @@ void main()
 	    dotRV = 0.0;  // Do not show highlight on the dark side
     }
     
-    vec3 ka = texture(uTexture, SineWave(UV) * 10).rgb;
+    vec3 ka = texture(uTexture,  UV).rgb * 0.7;
     vec3 Ia = vec3(0.3);
 
-    vec3 kd = texture(uTexture, SineWave(UV) * 10).rgb;
+    vec3 kd = texture(uTexture, UV).rgb;
     vec3 Id = vec3(1);
 
     vec3 ks = vec3(0.75);
